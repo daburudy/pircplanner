@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="travel.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">19 Days in Floridablanca Itinerary</title>
+</head>
+<body>
+    <section id="itinerary">
+    <div class="itinerary-container">
+        <div class="pencil-flex">
+<p class="logo" id="logo"><span class="highlight">PIRC </span>travel planner</p>
+<a href="index.html" class="homey"onclick="history.go(0);" onclick="not()">HOME</a>
+<div class="pencil-container"  onclick="change()">
+<p class="pencil" onclick="change()"><i class="fa fa-pencil"  onclick="change()"></i></p>
+</div>
+</div>
+</div>
+<img class="background-image" id="background-image" ><div class="container-where">
+<h1 class="your-trip-name" id="trip-name">15 days In Floridablanca, Pampanga</h1>
+<div class="the-date">
+    <p class="date-date" id="date-date1">Welcome, and enjoy!</p>
+</div>
+</div>
+<div class="link-header">
+    <ul class="nav-links">
+        <li><button class="header-links" onclick="route()">Route</button></li>
+        <li><button class="header-links" onclick="day()">Day by day <span class="arrow">&nbsp;🢓</span></button></li>
+        <li><button class="header-links" onclick="where()">Where to stay</button></li>
+        <li><button class="add-reser" onclick="reser()">+ Add</button></li>
+    </ul>
+</div>
+<!--add-reservation-->
+<div class="container-add" id="container-add">
+    <h2 class="email-me">Add reservation</h2>
+    <p class="email-us"><span class="envelope"><i class="fa fa-envelope"></i></span>Forward booking confirmation email to
+       <span class="email">pirc@gmail.com</span> (recommended)</p>
+</div>
+<!--route-->
+<section id="for-route">
+<section id="route">
+    <div class="shape-container">
+<div class="line-circle">
+    <div class="circle" id="first-circle"></div>
+    <div class="line"></div>
+    <div class="circle" id="big-circle">
+        <p class="number">2</p>
+    </div>
+    <p class="circle" id="last-circle"></p>
+
+    <div class="line"></div>
+    <button class="edit-btn" id="edit2" onclick="showme()"><span class='ed'  onclick="showme()">Edit</span></button>
+</div>
+</div>
+<div class="start-travel">
+    <h1 class="start-what"> <span id="start-what" >Start from...</span><span id="trans"></span></h1>
+    <h1 class="start-what" id="nameX">Angeles City</h1>
+    <h1 class="start-what"><span id="start-what1">End at...</span><span id="trans1"></span></h1>
+</div>
+<div id="map" class="map1">
+</div>
+</section>
+<!--place and description-->
+<section id="your-destination">
+    <div class="yourtrip-header">
+        <div class="my">
+        <h1 class="places-to-stay" id="places-to-stay">Floridablanca, Pampanga - 19 nights </h1>
+        <a href="#" class="header-daybyday"  onclick="day()">See day to day </a>
+        <p class="welcome-days" id="welcome-days">- 7 Days!</p>
+    </div>
+        <div class="container-of-picture">
+            <img src="fron.jpeg" class="nabuclod" id="place-pic">
+            <div class="description-pic">
+                <div class="florida-history">
+                   <p class="what-is-it" id="what-is-it">Floridablanca was founded in 1823 at the site of a monastery. In the 1920s, the Pampanga Sugar Mill was built at Del Carmen in the 1920s. The area was the site of military bases of the Philippine
+                    Commonwealth Army and the Philippine Constabulary from 1942 to 1946.</p> 
+                </div>
+                <div class="links-holder">
+                    <h2 class="things-to-do">Things to do..</h2>
+                     <ul class="to-do">
+                        <li class="to-do-it" id="things1">Restaurant &emsp;•</li>
+                        <li class="to-do-it" id="things2">Park&emsp;•</li>
+                        <li class="to-do-it" id="things3"> Falls&emsp;•</li>
+                        <li class="to-do-it" id="things4">Outdoor Activities</li>
+                     </ul>
+                     <div class="map-stay">
+                        <div class="stay-flex">
+                        <h3 class="find">Find a place to stay</h3>
+                        <a class="book-link" href="https://www.booking.com/" 
+    target="_self">Book now!</a>
+</div>
+<div class="map-places" id="mapstay">
+                      
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<div class="background-container" id="background-container">
+    <div class="flex-the-pic">
+    <img class="background" src="images/bg1.jpg" onclick="bg1()">
+    <img class="background" src="images/bg2.jpg" onclick="bg2()">
+    <img class="background" src="images/bg3.jpg" onclick="bg3()">
+    <img class="background" src="images/bg4.jpg" onclick="bg4()">
+    <img class="background" src="images/bg5.jpg" onclick="bg5()">
+    <img class="background" src="images/bg6.jpg" onclick="bg6()">
+    <img class="background" src="images/bg7.jpg" onclick="bg7()">
+    <img class="background" src="images/bg8.jpg" onclick="bg8()">
+    <img class="background" src="images/bg9.jpg" onclick="bg9()">
+</div>
+    <div class="file-input">
+        <input type="file" id="file" class="file" name="myPhoto" onchange="PreviewImage();" >
+        <label for="file">
+          Select file
+          <p class="file-name"></p>
+        </label>
+      </div>
+</div>
+</section>
+<section id = "to-stay">
+    <div class="loader-for">
+    <div id="loader"></div>
+</div>
+<div class="the-con" id="the-con">
+    <div class="hotels">
+        <h1 class="what-place-prefer" id="what-place">Where to stay in &nbsp;<span id="in">  San Fernando, Pampanga</span></h1>
+    </div>
+    <div class="guest-pic">
+<img src="images/hotel.jpg" id="stay-place" class="stay-place">
+    </div>
+    <div class="stay-place-des">
+        <p class="greeting-des">Browse hotels, guesthouses, and unique homes and book your stay on the world's leading accommodation sites.
+        </p>
+        <h3 class="booking-com">Booking<span class="com">.com</span></h3>
+        <p class="20-million">20 million rooms are at your fingertips!</p>
+        <a onlick ="link()" class="book-link-hotel" href="https://www.google.com/travel/hotels/Pampanga?q=hotel%20in%20pampanga%20google%20map&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4597339%2C4718358%2C4723331%2C4757164%2C4814050%2C4816977%2C4826689%2C4850738%2C4852066%2C4856937%2C4861687&hl=en-PH&gl=ph&ssta=1&ts=CAESCgoCCAMKAggDEAAaLAoOEgo6CFBhbXBhbmdhGgASGhIUCgcI5g8QChgYEgcI5g8QChgZGAEyAhAAKgsKBygBOgNQSFAaAA&rp=EMHoq-b6m-LrwwEQ3rOshuDtvpQfEMfzxMzFiaeozQEQpeDkqLncmNmvATgBQABIAqIBCFBhbXBhbmdhmgICCAA&ap=aAE&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjQiruc_Lb6AhUAAAAAHQAAAAAQBA&utm_campaign=sharing&utm_medium=link&utm_source=htls" 
+        target="_self">Find Hotels</a>
+        
+        </div>
+        <div class="conts-map-hotel" id="conts-map-hotel">
+            <iframe width="1503" height="468" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1503&amp;height=468&amp;hl=en&amp;q=hotels%20in%20pampanga%20%20pampanga+()&amp;t=h&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+        </div>
+    </div>
+</section>
+<section id="to-day">
+    <div class="flex-select">
+    <h3 class="day-1">Departed - Arrive</h3>
+    <select class="transit" id="optionIt">
+        <option> Car </option>
+        <option> Bicycle </option>
+        <option> Motorcycle </option>
+        <option> By foot</option>
+        <option> Jeepney</option>
+        <option> Bus</option>
+    </select>
+    <button class="okay" onclick="transport()">Change</button>
+</div>
+    <div class="container-place">
+        <h2 class="depart"><span id='to'>Pampanga</span> to <span id='from'>Pampanga</span></h2>
+        <div class="hours-container">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour2">10:00 am</p>
+    </div>
+    <div class="container-departed">
+        <p class="depart-from">Depart from <span id="where-depart">Manila</span></p>
+        <div class="icon-flex">
+       <img class="taxi" id="depart" src="images/taxi.jpg.png">
+       <p class="to-from"><span id='first-ride'></span> - <span id='second-ride'></span></p>
+    </div>
+    <p class="duration-travel">Duration: 1h 30 mins</p>
+    <p class="arive-time">Arive in <span id="where-arrive"> Minalin </span></p>
+    </div>
+    </div>
+    <div class="day1-itinerary" id="numOne">
+        <div class="travel-icon">
+            <p class="hey"><img class="taxi" id="hey1" src="images/taxi.jpg.png"> <span class="minutes-away"> - - 17 min (to Minalin)</span></p>
+        </div>
+        <h2 class="your-day" id="day-place">Day 1</h2>
+        <div class="container-for-day1">
+        <div class="your-day-container">
+            <p class="three" onclick="dot()">•••</p>
+            <div class="flex-it">
+            <div class="your-hour">
+            <p class="hour" id="starting-hour">7:00 am</p>
+            <p class="hour" id="hour3">10:00 am</p>
+        </div>
+        <div class="your-spots">
+            <img class="your-travel" id='yr-pic' src="minalin/church.jpg">
+        </div>
+        <div class="travel-title">
+            <h3 class="title-spots" id="title-spts">Minalin Pampanga, Church</h3>
+            <div class="des-flex">
+            <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span id ='hide' class="fa fa-star checked"></span>
+       <p class="rating" id="rating">4.3</p>
+            <p class="whats-in-spots" id="spotsz"></p>
+        </div>
+        <p class="www" id="ninu">Brkjwehrjkwehrjksdbjkfbsd</p>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<!--day2-->
+<div class="day1-itinerary" id="numTwo">
+    <div class="travel-icon">
+    <p class="hey"><img class="taxi"id="hey2" src="images/taxi.jpg.png"><span class="minutes-away"> - - 17 min (to Minalin)</span> </p>
+   
+</div>
+    <h2 class="your-day">Day 2</h2>
+    <div class="container-for-day1">
+    <div class="your-day-container">
+        <p class="three" onclick="dot()">•••</p>
+        <div class="flex-it">
+        <div class="your-hour">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour3">10:00 am</p>
+    </div>
+    <div class="your-spots">
+        <img class="your-travel" id='yr-pic2' src="minalin/church.jpg">
+    </div>
+    <div class="travel-title">
+        <h3 class="title-spots" id="title-spots2">Minalin Pampanga, Church</h3>
+        <div class="des-flex">
+        <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <p class="rating" id="rating2">4.3</p>
+        <p class="whats-in-spots" id="spotz2">Church </p>
+    </div>
+    
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+</div>
+<!--day3-->
+<div class="day1-itinerary" id="numThree">
+    <div class="travel-icon">
+    <p class="hey"><img class="taxi"id="hey3" src="images/taxi.jpg.png"><span  class="minutes-away"> - - 17 min (to Minalin)</span></p>
+    
+</div>
+    <h2 class="your-day">Day 3</h2>
+    <div class="container-for-day1">
+    <div class="your-day-container">
+        <p class="three" onclick="dot()">•••</p>
+        <div class="flex-it">
+        <div class="your-hour">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour3">10:00 am</p>
+    </div>
+    <div class="your-spots">
+        <img class="your-travel" src="minalin/church.jpg">
+    </div>
+    <div class="travel-title">
+        <h3 class="title-spots">Minalin Pampanga, Church</h3>
+        <div class="des-flex">
+        <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <p class="rating" id="rating">4.3</p>
+        <p class="whats-in-spots">Church ·<span id="spots6"> Tourist Spots</span></p>
+    </div>
+    <p class="www" id="ninu1">Brkjwehrjkwehrjksdbjkfbsd</p>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<!--day4-->
+<div class="day1-itinerary" id="numFour">
+    <div class="travel-icon">
+    <p class="hey"><img class="taxi"id="hey4" src="images/taxi.jpg.png"><span class="minutes-away"> - - 17 min (to Minalin)</span></p>
+   
+</div>
+    <h2 class="your-day">Day 4</h2>
+    <div class="container-for-day1">
+    <div class="your-day-container">
+        <p class="three" onclick="dot()">•••</p>
+        <div class="flex-it">
+        <div class="your-hour">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour3">10:00 am</p>
+    </div>
+    <div class="your-spots">
+        <img class="your-travel" src="minalin/church.jpg">
+    </div>
+    <div class="travel-title">
+        <h3 class="title-spots">Minalin Pampanga, Church</h3>
+        <div class="des-flex">
+        <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <p class="rating" id="rating">4.3</p>
+        <p class="whats-in-spots">Church ·<span id="spots8"> Tourist Spots</span></p>
+    </div>
+    <p class="www" id="ninu1">Brkjwehrjkwehrjksdbjkfbsd</p>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+<!--day5-->
+
+<div class="day1-itinerary" id="numFive">
+    <div class="travel-icon">
+    <p class="hey"><img class="taxi" id="hey5" src="images/taxi.jpg.png"> <span  class="minutes-away"> - - 17 min (to Minalin)</span></p>
+   
+</div>
+    <h2 class="your-day">Day 5</h2>
+    <div class="container-for-day1">
+    <div class="your-day-container">
+        <p class="three" onclick="dot()">•••</p>
+        <div class="flex-it">
+        <div class="your-hour">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour3">10:00 am</p>
+    </div>
+    <div class="your-spots">
+        <img class="your-travel" src="minalin/church.jpg">
+    </div>
+    <div class="travel-title">
+        <h3 class="title-spots">Minalin Pampanga, Church</h3>
+        <div class="des-flex">
+        <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <p class="rating" id="rating">4.3</p>
+        <p class="whats-in-spots">Church </p>
+    </div>
+    <p class="www" id="ninu1">Brkjwehrjkwehrjksdbjkfbsd</p>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+<!--day 6-->
+<div class="day1-itinerary" id="numSix">
+    <div class="travel-icon">
+    <p class="hey"><img class="taxi" id="hey6" src="images/taxi.jpg.png"><span class="minutes-away"> - - 17 min (to Minalin)</span></p>
+</div>
+    <h2 class="your-day">Day 6</h2>
+    <div class="container-for-day1">
+    <div class="your-day-container">
+        <p class="three" onclick="dot()">•••</p>
+        <div class="flex-it">
+        <div class="your-hour">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour3">10:00 am</p>
+    </div>
+    <div class="your-spots">
+        <img class="your-travel" src="minalin/church.jpg">
+    </div>
+    <div class="travel-title">
+        <h3 class="title-spots">Minalin Pampanga, Church</h3>
+        <div class="des-flex">
+        <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <p class="rating" id="rating">4.3</p>
+        <p class="whats-in-spots">Church </p>
+    </div>
+    <p class="www" id="ninu1">Brkjwehrjkwehrjksdbjkfbsd</p>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+<!--day7-->
+<div class="day1-itinerary" id="numSeven">
+    <div class="travel-icon">
+    <p class="hey"><img class="taxi" id="hey7" src="images/taxi.jpg.png">  <span class="minutes-away"> - - 17 min (to Minalin)</span></p>
+</div>
+    <h2 class="your-day">Day 7</h2>
+    <div class="container-for-day1">
+    <div class="your-day-container">
+        <p class="three" onclick="dot()">•••</p>
+        <div class="flex-it">
+        <div class="your-hour">
+        <p class="hour">7:00 am</p>
+        <p class="hour" id="hour3">10:00 am</p>
+    </div>
+    <div class="your-spots">
+        <img class="your-travel" src="minalin/church.jpg">
+    </div>
+    <div class="travel-title">
+        <h3 class="title-spots">Minalin Pampanga, Church</h3>
+        <div class="des-flex">
+        <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <span class="fa fa-star checked"></span>
+   <p class="rating" id="rating">4.3</p>
+        <p class="whats-in-spots">Church </p>
+    </div>
+    <p class="www" id="ninu1">Brkjwehrjkwehrjksdbjkfbsd</p>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+</section>
+ <!--SEARCH WHERE TO START-->
+<section id="add-remove">
+    <div class="your-class">
+    <div class="first-container">
+        <p class="starter-pack">Where to start :  <span id="spt-strt">Pampanga</span> <span  class="end-place" onclick= 'editme1()' id="where">Edit</span></p>
+        <div class="input-your-start" id="input-your-start">
+            <select class="type-start" id="myText1" value="Pampanga">
+                <option>Floridablanca, Pampanga</option>
+                <option>Apalit, Pampanga</option>
+                <option>Arayat, Pampanga</option>
+                <option>Bacolor, Pampanga</option>
+                <option>Candaba, Pampanga</option>
+                <option>Guagua, Pampanga</option>
+                <option>Lubao, Pampanga</option>
+                <option>Macabebe, Pampanga</option>
+                <option>Magalang, Pampanga</option>
+                <option>Masantol, Pampanga</option>
+                <option>Mexico, Pampanga</option>
+                <option>Minalin, Pampanga</option>
+                <option>Porac, Pampanga</option>
+                <option>San Luis, Pampanga</option>
+                <option>San Simon, Pampanga</option>
+                <option>Santa Rita, Pampanga</option>
+                <option>Santa Ana, Pampanga</option>
+                <option>Santo Tomas, Pampanga</option>
+                <option>Sasmuan, Pampanga</option>
+                <option>Angeles, Pampanga</option>
+                <option>Region I</option>
+                <option>Region II</option>
+                <option>Region II</option>
+                <option>Region IV - A</option>
+                <option>MIMAROPA</option>
+                <option>Region VI</option>
+                <option>Region VII</option>
+                <option>Region VIII</option>
+                <option>Region IX</option>
+                <option>Region X</option>
+                <option>Region XI</option>
+                <option>Region XII</option>
+                <option>Region XIII</option>
+                <option>NCR</option>
+                <option>CARR</option>
+                <option>BARMM</option>
+            </select><br>
+            <button class="save1" onclick="enter1()">Save</button>
+        </div>
+        <div class="your-travel-place">
+            <!--One-->
+            <div id="holder1">
+            <div class="flex-num">
+                <p class="numOne" id="on1">1</p>
+           <div class="spotsOne" >
+            <input type="text" class="sptt" id="text1"><br>
+           </div>
+          </div>
+        </div>
+            <!--two-->
+            <div id="holder2">
+            <div class="flex-num">
+                <p class="numOne"  id="on2">2</p>
+            <div class="spotsOne">
+                <input type="text" class="sptt" id="text2"><br>
+               </div>
+               </div>
+            </div>
+                <!--three-->
+                <div id="holder3">
+                <div class="flex-num">
+                    <p class="numOne"  id="on3">3</p>
+           <div class="spotsOne">
+            <input type="text" class="sptt" id="text3"><br>
+           </div>
+                </div>
+            </div>
+            <!--four-->
+            <div id="holder4">
+            <div class="flex-num">
+                <p class="numOne"  id="on4">4</p>
+            <div class="spotsOne">
+                <input type="text" class="sptt" id="text4"><br>
+               </div>
+            </div>
+        </div>
+                <!--five-->
+                <div id="holder5">
+                <div class="flex-num">
+                    <p class="numOne"  id="on5">5</p>
+           <div class="spotsOne">
+            <input type="text" class="sptt" id="text5"><br>
+           </div>
+           </div>
+        </div>
+            <!--six-->
+            <div id="holder6">
+            <div class="flex-num">
+                <p class="numOne"  id="on6">6</p>
+            <div class="spotsOne">
+                <input type="text" class="sptt" id="text6"><br>
+               </div>
+            </div>
+        </div>
+                <!--seven-->
+                <div id="holder7">
+                <div class="flex-num">
+                    <p class="numOne"  id="on7">7</p>
+           <div class="spotsOne" >
+            <input type="text" class="sptt" id="text7"><br>
+           </div>
+            </div>
+        </div>
+        <!--SEARCH WHERE TO END-->
+        </div>
+        <p class="ending" id="ending">Where to end :   <span id="spt-end">Pampanga</span> <span class="end-place" onclick="editme()">Edit</span> </p>
+        <div class="input-your-end" id="input-your-end">
+            <select class="type-end" id="myText" value="Pampanga">
+                <option>Floridablanca, Pampanga</option>
+                <option>Apalit, Pampanga</option>
+                <option>Arayat, Pampanga</option>
+                <option>Bacolor, Pampanga</option>
+                <option>Candaba, Pampanga</option>
+                <option>Guagua, Pampanga</option>
+                <option>Lubao, Pampanga</option>
+                <option>Macabebe, Pampanga</option>
+                <option>Magalang, Pampanga</option>
+                <option>Masantol, Pampanga</option>
+                <option>Mexico, Pampanga</option>
+                <option>Minalin, Pampanga</option>
+                <option>Porac, Pampanga</option>
+                <option>San Luis, Pampanga</option>
+                <option>San Simon, Pampanga</option>
+                <option>Santa Rita, Pampanga</option>
+                <option>Santa Ana, Pampanga</option>
+                <option>Santo Tomas, Pampanga</option>
+                <option>Sasmuan, Pampanga</option>
+                <option>Angeles, Pampanga</option>
+                <option>Region I</option>
+                <option>Region II</option>
+                <option>Region II</option>
+                <option>Region IV - A</option>
+                <option>MIMAROPA</option>
+                <option>Region VI</option>
+                <option>Region VII</option>
+                <option>Region VIII</option>
+                <option>Region IX</option>
+                <option>Region X</option>
+                <option>Region XI</option>
+                <option>Region XII</option>
+                <option>Region XIII</option>
+                <option>NCR</option>
+                <option>CARR</option>
+                <option>BARMM</option>
+            </select><br>
+            <button class="save" onclick="enter()">Save</button>
+        </div>
+    </div>
+    </div>
+    <div class="map-container">
+        <iframe width="491" height="528" onclick = "map()" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap" src="https://maps.google.com/maps?width=491&amp;height=528&amp;hl=en&amp;q=pampanga%20philippines%20pampanga%20philippines+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+</div>
+    <div class="cancel-container">
+        <button class='cancel' onclick="document.getElementById('id01').style.display='block'">Cancel</button>
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content">
+              <div class="container">
+                <h1>Discard changes?</h1>
+                <p>You will lose all of your unsaved changes.</p>
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="button" onclick="deleteme()" class="deletebtn">Delete</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        <button class="cancel" id="enter" onclick="go()">Save</button>
+    </div>
+</section>
+<script src="travel.js"></script>
+
+</body>
+</html>
+</body>
+</html>

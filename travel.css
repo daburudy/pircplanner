@@ -1,0 +1,1085 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body {
+    
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 77vh;
+    z-index: -1;
+    width: 100%;
+    overflow-x: hidden;
+}
+.your-trip-name {
+    font-size: 5em;
+    text-shadow: 0 3px 3px black;
+    position: relative;
+    right: 40px;
+}
+.highlight {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.logo {
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 0 2px 2px black;
+    margin-left: 10px;
+}
+.container-where {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    color: #ffe135;
+    text-shadow: 2px 2px black;
+}
+.the-date {
+    position: absolute;
+    top: 130px;
+    left: 310px;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 2px 2px black;
+}
+.date-date {
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+.edit-btn {
+    position: absolute;
+    top: 40px;
+    left: 390px;
+    padding: 5px 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1em;
+    border-radius: 30px;
+}
+.link-header {
+    position: relative;
+    background-color: white;
+    left: -10px;
+    top: 480px;
+    font-size: 1em;
+    width: 1430px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 2px 2px gray;
+    z-index: 1;
+    color: #0E0E0F;
+   
+ }
+ .header-links {
+    border: none;
+    font-size: 1.1em;
+    font-family: 'Work Sans', sans-serif;
+    background-color: transparent;
+ }
+li {
+    display: inline-block;
+    margin-left: 70px;
+    font-weight: bold;
+    position: relative;
+    left: 190px;
+
+}
+.nav-links {
+  position: relative;
+  left: 200px;
+}
+.arrow{
+    font-size: 1.5em;
+    position: absolute;
+    top: 3px;
+    color: black;
+}
+.add-reser {
+    position: absolute;
+   left: 100px;
+   top: -25px;
+   width: 100px;
+   height: 5vh;
+   background-color: black;
+   color: white;
+   font-size: 1em;
+   border-radius: 30px;
+
+}
+.pencil-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pencil-container{
+    background-color: gray;
+    margin-right: 30px;
+    font-size: 1.2em;
+    padding: 0 12px;
+    height: 4.5vh;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+}
+.pencil {
+    position: relative;
+    top: -13px;
+    color: black;
+    z-index: 1;
+}
+/*route*/
+#route {
+    position: relative;
+    top: 500px;
+    left: 100px;
+    display: flex;
+    font-size: 1.3em;
+  
+}
+.circle:hover {
+    color: black;
+    background-color: skyblue;
+}
+.start-what:hover {
+    color: rgb(3, 129, 178);
+}
+
+.map {
+  position: relative;
+  left: 400px;
+  top: 10px;
+  border: 2px solid gray;
+}
+
+.gmap_canvas {
+ border: 2px solid black;
+}
+#your-destination {
+    position: relative;
+    top: 550px;
+}
+.my {
+    display: flex;
+}
+.yourtrip-header {
+    width: 1000px;
+    background-color: white;
+    height: 100vh;
+    position: relative;
+    left: 160px;
+    top: -10px;
+    box-shadow: 0 5px 7px#454545;
+    border-radius: 5px;
+}
+
+.what-is-it {
+    width: 400px;
+    position: relative;
+    left: 570px;
+    top: -300px;
+    font-size: 1.1em;
+  
+}
+.nabuclod {
+    width: 450px;
+    height: 35vh;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+ .places-to-stay {
+    margin-left: 50px;
+   font-size: 2em;
+ }
+
+ .links-holder {
+   position: absolute;
+   top: 290px;
+   left: 570px;
+ }
+
+ .to-do {
+    position: relative;
+    left: -250px;
+    white-space: nowrap;
+    font-size: 0.9em;
+    color: 	#383737;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+ .to-do-it {
+    display: inline-block;
+    margin-left: 20px;
+    
+ }
+ .header-daybyday {
+    background-color: #0E0E0F;
+    color: white;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+ }
+ .map {
+    position: relative;
+    left: 20px;
+    top: 30px;
+ }
+ .map-stay {
+    position: relative;
+    top: 20px;
+    left: -540px;
+ }
+ #gmap_canvas {
+    height: 30vh;
+    width: 940px;
+    box-shadow: 0 5px 5px gray;
+ }
+ .stay-flex{
+    display: flex;
+    justify-content: space-between;
+ }
+ .book-link {
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 1.1em;
+    color: rgb(7, 168, 232);
+    text-decoration: underline;
+ }
+ .line-circle {
+    position: relative;
+    top: 30px;
+ }
+ .circle {
+    background-color: black;
+    border-radius: 10px;
+    height: 2vh;
+    width: 15px;
+    color: white;
+    }
+
+ .line {
+    height: 13vh;
+    background-color: gray;
+    width: 2px; 
+    position:absolute;
+    left: 6px;
+    z-index: -1;
+   
+ }
+ .header-links:hover{
+ transform: scale(1.1);
+ 
+ 
+ }
+ .shape-container {
+    position: relative;
+    top: 2px;
+}
+ #big-circle {
+    width: 30px;
+    height: 4vh;
+    border-radius: 20px;
+    position: relative;
+    top: 35px;
+    left: -7px;
+ }
+ .number {
+    text-align: center;
+    padding-top: 3px;
+  
+ }
+ #last-circle {
+    position: absolute;
+    top: 140px;
+ }
+ .start-travel {
+    position: relative;
+    top: -5px;
+ }
+ .start-what {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 1.2em;
+ }
+ .nights {
+    font-weight: normal;
+ }
+ #edit2 {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    font-size: 0.9em;
+ }
+ /*add reservation*/
+ .container-add {
+    position:absolute;
+    right: 20px;
+    top: 360px;
+    width: 330px;
+    height: 25vh;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow:  0 1px 1px gray;
+    display: none;
+ }
+ .envelope {
+    margin-right: 10px;
+ }
+ .email {
+    text-decoration: underline;
+    color: rgb(6, 159, 219);
+ }
+ /*background*/
+.background{
+    width : 170px;
+    height: 20vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(172, 172, 172);
+    transition: all, 0.15s;
+}
+.background:hover{
+    transform: scale(1.1);
+}
+.background-container {
+   position: absolute;
+   top: 10px;
+   right: 380px;
+   background-color: white;
+   padding: 20px 0;
+   padding-right: 30px;
+   padding-left: 20px;
+   border-radius: 10px;
+   z-index: 1;
+   display: none;
+}
+.flex-the-pic {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.file-name {
+  position: absolute;
+  bottom: -35px;
+ 
+  font-size: 0.8em;
+  color: #555;
+  white-space: nowrap;
+}
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+  .file-input label {
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    left: 170px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background:#7873f5;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+  }
+  input:hover + label,
+  input:focus + label {
+  transform: scale(1.02);
+}
+/*to stay*/
+
+#to-stay {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    height: 70vh;
+    display: none;
+}
+.guest-pic, .stay-place-des {
+    display: inline-block;
+}
+.stay-place-des {
+    position: absolute;
+    top: 90px;
+    width: 500px;
+    margin-left: 50px;
+}
+.what-place-prefer {
+    font-size: 3em;
+}
+.booking-com {
+    color: blue;
+    font-size: 1.7em;
+} 
+.com {
+    color: rgb(3, 147, 203);
+}
+.stay-place {
+    width: 400px;
+    height: 50vh;
+}
+.book-link-hotel {
+    padding: 10px 30px;
+    background-color: rgb(3, 147, 203);
+    color: white;
+    font-size: 1.1em;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+a {
+    text-decoration: none;
+}
+.conts-pakyu {
+    height: 100vh;
+}
+#loader {
+    width: 50px;
+    height: 50px;
+    margin: -76px 0 0 -76px;
+    outline: dotted;
+    outline-width: 5px;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+   
+  }
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+ .loader-for {
+    position: absolute;
+    left: 40%;
+    top: 62%;
+    z-index: 1;
+    display: block;
+    height: 50vh;;
+ }
+ .the-con {
+    display: none;
+ }
+ .conts-map-hotel {
+    margin-top: 40px;
+ }
+ .homey{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    color: black;
+    padding: 7px 20px;
+    background-color:white;
+    border-radius: 20px;
+    font-weight: bold;
+ }
+ /*today*/
+ #to-day {
+    position: relative;
+    top: 500px;
+    left: 330px;
+    height: 100vh;
+    display: none;
+ }
+ .day-1 {
+  background-color: white;
+    width: 220px;
+    padding: 8px 30px;
+    border-radius: 3px;
+   box-shadow: 0  5px 5px #C8C8CD;
+   display: inline-block;
+    
+ }
+ .container-place {
+    background-color: white;
+    width: 700px;
+    height: 38vh;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 5px rgb(201, 199, 199);
+ }
+ 
+ .depart {
+  position: absolute;
+  left: 30px;
+ }
+ .hours-container {
+   position: absolute;
+   top: 67px;
+   left: 30px;
+   font-size: 1em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .container-departed{
+    position: absolute;
+    left: 280px;
+    top: 70px;
+    font-size: 1.1em;
+   
+ }
+ .icon-flex{
+    display: flex;
+   margin-left: -20px;
+ }
+ .taxi {
+    width: 60px;
+    margin-top: -5px;
+ }
+ .duration-travel {
+    color: grey;
+    font-size: 0.8em;
+    margin-top: -15px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .arive-time {
+  position: absolute;
+  left: -5px;
+ }
+#hour2 {
+    position: absolute;
+    top: 130px;
+    white-space: nowrap;
+}
+.to-from {
+    color: rgb(2, 128, 179);
+    position: relative;
+    left: -5px;
+}
+
+#gmapz{
+    position: relative;
+    top: 5px;
+    left: 200px;
+   box-shadow: 0 5px 3px gray;
+ 
+}
+
+/*day1*/
+.container-for-day1 {
+    width: 700px;
+    height: 25vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(201, 199, 199);
+}
+.three {
+    position: absolute;
+    right: 12px;
+    font-size: 1.2em;
+    top: -13px;
+    color: rgb(2, 77, 107);
+    cursor: pointer;
+}
+.your-spots {
+    display: inline-block;
+}
+.flex-it {
+    display: flex;
+    justify-content: space-between;
+}
+.your-hour {
+   position: relative;
+   top: 20px;
+   left: 20px;
+   color:#252222;
+   font-size: 1.1em;
+}
+.your-travel{
+    width: 230px;
+    height: 17vh;
+    position: relative;
+    top: 35px;
+    left: 5px;  
+}
+.travel-title {
+   position: relative;
+   right: 28px;
+   top: 20px;
+}
+#hour3 {
+    margin-top: -15px;
+}
+/*STARS RATING*/
+.whats-in-spots{
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(24, 17, 17);
+    font-size: 0.8em;
+    margin-top: -7px;
+}
+.www{
+  font-size: 0.7em;
+  width: 300px;
+  margin-top: -5px;
+}
+.checked {
+    color: orange;
+    margin-top: -7px;
+}
+
+.des-flex {
+    display: flex;
+}
+.rating {
+    margin-top: -8px;
+    font-size: 0.9em;
+    margin-left: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#taxiz{
+    position: relative;
+    top: 20px;
+}
+.travel-icon {
+    position: relative;
+    top: 10px;
+}
+#depart {
+  width: 60px;
+  height: 6vh;
+  position: relative;
+  top: 16px;
+  left: -10px;
+}
+/*add*/
+.your-class {
+    display: flex;
+    justify-content: space-between;
+}
+#add-remove{
+    position: absolute;
+    background-color: white;
+    height: 110vh;
+    top: 0;
+    left: -10px;
+    z-index: 1;
+    width: 1450px;
+    display: none;
+   
+}
+.sptt{
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+.first-container {
+    font-size: 1.2em;
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+.map-container {
+   position: absolute;
+   top: -10px;
+   right: 30px;
+}
+#gmap{
+   height: 70vh;
+   width: 600px;
+   position: relative;
+   top: 90px;
+   right: 130px;
+}
+.your-travel-place {
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    padding: 0 10px 0 50px;
+    border-radius: 2px;
+    margin-left: 20px;
+
+}
+
+.numOne{
+  background-color: #7873f5;
+  padding: 5px 15px;
+  height: 5vh;
+  margin-left: -30px;
+  border-radius: 40px;
+}
+#on1{
+  padding: 7px 16.5px;
+}
+#on1,  #on5 {
+  background-color: #AAF0D1;
+}
+#on2, #on4,#on7{
+  background-color: #FF6EFF;
+}
+.flex-num{
+  display: flex;
+}
+.one-spots {
+     border: none;
+     outline: none;
+    margin-left: 10px;
+   font-size: 1.1em;
+}
+.edits {
+    color: rgb(11, 125, 170);
+}
+.starter-pack {
+    margin-left: 20px;
+}
+.delete{
+    font-size: 1.3em;
+    position: relative;
+    left: 20px;
+}
+.delete:hover{
+    color: black;
+}
+.mybtn{
+    padding: 8px 200px;
+    font-size: 1.1em;
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: rgb(6, 212, 212);
+    border-radius: 3px;
+    color: white;
+}
+
+.cancel {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#enter{
+    background-color: #0E0E0F;
+    color: white;
+    margin-left: 20px;
+}
+
+.cancel-container{
+    position: absolute;
+    bottom: -45px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 7px 7px #E8E8E8;
+    
+}
+#text1-1, #text1-2, #text1-3, #text1-4, #text1-5, #text1-6, #text1-7 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+    float: left;
+    width: 50%;
+   
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtn {
+    background-color: white;
+    border: 1px solid black;
+   
+    color: black;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+  
+  /* Add a color to the delete button */
+  .deletebtn {
+    background-color: black;
+    padding: 20px 0;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Add padding and center-align text to the container */
+  .container {
+    padding: 70px;
+    text-align: center;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+   
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Modal Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and delete button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .deletebtn {
+       width: 100%;
+    }
+  }
+  .end-place {
+    color: rgb(3, 134, 185);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .end-place:hover {
+    color: red;
+  }
+  .ending {
+    margin-left: 20px;
+  }
+  .input-your-end {
+    background-color: white;
+    width: 230px;
+    padding: 30px 0;
+    box-shadow: 0 5px 10px#D3D3D3;
+    position: absolute;
+    left: 100px;
+    display: none;
+    top: 370px;
+  }
+  .type-end {
+    position: relative;
+    left: 5px;
+    padding: 10px 20px;
+  }
+  .type-start {
+    position: relative;
+    left: 5px;
+    padding: 10px 20px;
+  }
+  .input-your-start{
+    width: 230px;
+    padding: 30px 0;
+    box-shadow: 0 5px 10px#D3D3D3;
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    background-color: white;
+    display: none;
+  }
+  .save1{
+    position: relative;
+    font-size: 1em;
+    padding: 5px 60px;
+    top: 10px;
+    left: 25px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+  }
+  .save {
+    position: relative;
+    font-size: 1em;
+    padding: 5px 60px;
+    top: 10px;
+    left: 26px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+  }
+  .welcome-days {
+    position: absolute;
+    top: -4px;
+    font-size: 2.3em;
+    font-weight: bold;
+    right: 200px;
+    
+  }
+  .autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+  
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+ .search {
+    background-color: #f1f1f1;
+    width: 130%;
+    padding: 20px 7px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 70px;
+    left: 50px;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
+
+  
+  .sp1{
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+  #trans{
+    font-weight: normal;
+    font-size: 0.9em;
+  }
+  #trans1{
+    font-weight: normal;
+    font-size: 0.9em;
+  }
+  
+  .minutes-away{
+    position: relative;
+    top: -7px;
+    left: 5px;
+    color: #018ba7;
+  }
+  .transit{
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0  3px 3px #C8C8CD;
+  color: #018ba7;
+  font-weight: bold;
+  }
+  .okay{
+    box-shadow: 0 5px 5px white;
+    border: 1px solid gray;
+    padding: 8px 25px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    color:white;
+  
+  }
+  .okay:hover{
+    cursor: pointer;
+    background-color: #555;
+  }
+  #optionIt{
+    display: inline-block;
+    margin-left: 250px;
+  }
+  .minutes{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(9, 125, 172);
+  }
+  

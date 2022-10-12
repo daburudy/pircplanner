@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>PIRC</title>
+   
+</head>
+<body>
+    <section id="front">
+    <div class="header">
+       
+       <h1 class="title-header"><span class="pirc">Pampanga Itinerary Recommender,</span> will help you to travel easier!</h1>
+    </div>
+    <div class="header1">
+        <p class="pirc-head">Pampanga Itinerary Planner</p>
+    </div>
+    <div class="qoutes">
+        <h1 class="header-qoutes">The finest way to plan a trip in Pampanga!</h1>
+        <p class="costum">Plan your itinerary easier, Day by day to have an enjoyable vacation!</p>
+        <div class="buttons">
+        <button class="start" id="start" onclick="document.getElementById('id01').style.display='block'">Start planning</button>
+        <button class="start">What to do?</button>
+    </div>
+    </div>
+</section>
+<!--ABOUT-->
+<section id="about">
+    <div class="about-container">
+        <h1 class="about-head">Easy to use, and easy to browse!</h1>
+    </div>
+    <div class="flex-icon">
+        <!--first-->
+    <div class="first-about" id="one">
+        <img class="icon" id="pic1" src="images/person.png">
+        <p class="icon-title" id="first-tits" >GET YOUR PERSONALIZED TRIP!</p>
+        <p class="icon-desc" id="first-des">A full day by day itinerary based on your preferences, and likes!</p>
+    </div>
+    <!--second-->
+    <div class="first-about" id="two">
+        <img class="icon" id='pic2' src="images/costumize.png">
+        <p class="icon-title" id="two-tits">COSTUMIZE IT!</p>
+        <p class="icon-desc" id="two-des">Refine your trip. We'll find the
+            best routes and schedules</p>
+    </div>
+    <!--third-->
+    <div class="first-about" id="three">
+        <img class="icon" id="pic3" src="images/manage.png">
+        <p class="icon-title"  id="three-tits">MANAGE IT!</p>
+        <p class="icon-desc" id="three-des">Everything in one place. Everyone on the same page.</p>
+    </div>
+</div>
+<div class="trending">
+<h1 class="trending-head">Other Destinations</h1>
+<div class="img-flex">
+    <div class="history">
+    <img class="spots" src="images/fontana.jpg"> 
+    <div class="container-th">
+    <p class="th-name">Fontana Leisure Park</p>
+</div>
+   <p class="heart"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/arayat.jpg">
+    <div class="container-th">
+        <p class="th-name">Arayat, Pampanga</p>
+    </div>
+    <p class="heart1"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/kabayo.png">
+    <div class="container-th">
+        <p class="th-name">El Kabayo Riding Stables</p>
+    </div>
+    <p class="heart2"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/pinatubo.jpg">
+    <div class="container-th">
+        <p class="th-name">Mount. Pinatubo</p>
+    </div>
+    <p class="heart3"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/skyranch.jpg">
+    <div class="container-th">
+        <p class="th-name">Skyranch Pampanga</p>
+    </div>
+    <p class="heart4"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/tocino.png">
+    <div class="container-th">
+        <p class="th-name">Tocino</p>
+    </div>
+    <p class="heart5"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/binulo.png">
+    <div class="container-th">
+        <p class="th-name">Binulo Festival</p>
+    </div>
+    <p class="heart6"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/sisig.png">
+    <div class="container-th">
+        <p class="th-name">Sisig Pampanga</p>
+    </div>
+    <p class="heart7"><i class="fa fa-heart-o"></i></p> 
+</div>
+<div class="history">
+    <img class="spots" src="images/tugak.png">
+    <div class="container-th">
+        <p class="th-name">Betute Tugak
+        </div>
+    <p class="heart8" ><i class="fa fa-heart-o"></i></p> 
+</div>
+</div>
+</div>
+</section>
+<!--FORM-->
+<section id="form">
+      </form>
+      <div id="id01" class="modal">
+  
+       <div class="modal-content animate">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          </div>
+          <p class="planner">Itinerary Planner</p>
+          <div class="container">
+            <div class="autocomplete">
+                  <input id="myInput" value="Floridablanca, Pampanga" class="search" type="search" name="myCountry" placeholder="Enter municipality e.g (Floridablanca)" required>
+              </div>
+              <p class="enterme" onclick="searching()">Search</p>
+              <div class="date-range">
+                  <p class="date-desc">Day Duration<span class="cal"> <i class="fa fa-calendar"></span></i></p>
+                </div>
+                  <div class="calendar">
+                      <select id="people">
+                          <option>1 Day</option>
+                          <option>2 Days</option>
+                          <option>3 Days</option>
+                          <option>4 Days</option>
+                          <option>5 Days</option>
+                          <option>6 Days</option>
+                          <option>7 Days</option>
+                      </select>
+              
+                  <div class="btnk" >
+                  <p class="guest">Guest <span class="cal"><i class="fa fa-user"></i></span></p>
+                  <input type="text" id= "your-guest" class="your-guest">
+                  </div>
+              </div>
+              <div class="activities">
+                  <p class="prefer" onclick="act()">Activites (Required)  </p>
+              </div>
+              <section id="act">
+                  <div class="radio-container">
+                      <div class="box1">
+                      <input type="checkbox" class="box" id="prefer1"   onclick="radio()" value="Sports & Recreational"> <span class="name" id="outdoors">Sports & Recreational</span>
+                      <input type="checkbox" class="box" id="prefer2"  onclick="radio()" value="Shopping"> <span class="name" id="romantic">Shopping</span>
+                  </div>
+                  <div class="box2">
+                      <input type="checkbox" class="box" id="prefer5"   onclick="radio()"  value="Historic/Culture"><span class="name" id="culture">Historic/Culture</span>
+                  </div>
+                  <div class="box3">
+                      <input type="checkbox" class="box" id="prefer9"   onclick="radio()"  value="Nature"> <span class="name" id="historic">Nature</span>
+                  </div>
+                  </div>
+                  <form action="travel.html">
+              <button class="trip" id="btnt" onclick="tripping()" disabled>See your trip</button>
+            </form>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+</section>
+
+
+<div class="container-visit" id="containerV">
+    <div class="name-cont">
+    <p id="old">Adults</p>
+    <p id="teen">Teen</p>
+    <p id="kid">Kids</p>
+</div>
+<div class="container-sum">
+    <div class="add">
+    <p class="+" id="inc" onclick="sum()">+</p>
+    <p class="+" id="zero">0</p>
+    <button class="S" id= "sum" onclick="sub()" disabled>-</button>
+    </div>
+    <div class="add" id="teens">
+    <p class="+" id="inc1" onclick="sum1()">+</p>
+    <p class="+"id="zero1">0</p>
+    <button class="S" id= "sum1" onclick="sub1()" disabled>-</button>
+    </div>
+    <div class="add" id="kids">
+    <p class="+" id="inc2"onclick="sum2()">+</p>
+    <p class="+"id="zero2">0</p>
+    <button class="S" id= "sum2" onclick="sub2()" disabled>-</button>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section id="barangay">
+    <div class="barangay-con">
+        <h1 class="n19">
+            The Municipalities Of Pampanga
+        </h1>
+        <div class="brgy-hold">
+            <div class="bgy">
+                <h3 class="title">Floridablanca, Pampanga</h3>
+                <p class="des-des">Floridablanca is the second largest producer of rice in the province. It produces more than enough
+                     rice to meet its needs resulting in a surplus</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Apalit, Pampanga</h3>
+                <p class="des-des">According to the 2020 census, it has a population of 117,160 people. Oscar D. Tetangco Jr. The town is famous for its Apung Iru Fluvial Procession, which is listed as one of the
+                     most significant water-based intangible cultural heritage of the Philippines.</p>
+                    
+                    </div>
+            <div class="bgy">
+                <h3 class = "title" >Arayat, Pampanga</h3>
+                <p class="des-des">Mount Arayat is a potentially active stratovolcano located in the province of Pampanga on the island of Luzon, Philippines, rising to a height of 1,033 metres (3,389 ft). The volcano has a breached crater on its
+                     northwest side with a smaller andesitic dome in the collapse amphitheater.</p>
+                     </div>
+            <div class="bgy">
+                <h3 class="title">Bacolor, Pampanga</h3>
+                <p class = "des-des">Pampanga was acknowledged as the first province to have organized civil government in the Philippines by General Grant, the then President of the United States of America. Bacolor's festivity is celebrated every 10th day of February and the
+                     La Naval Fiesta is being held every 3rd Sunday of November.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Candaba, Pampanga</h3>
+                <p class ="des-des">Candaba is noted for its production watermelon, that are sold worldwide. The swamps are communal fishing grounds encompassing some 430 km² of highly arable farmlands. Candaba swamps are very fertile due to its 
+                    sustained deposits of humus and decaying plant residues.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Guagua, Pampanga</h3>
+                <p class="des-des">In 1572, its people were noted for their firm resistance against the autocratic Spanish colonizer. Moreover, the natives ( until now ) have been well known for their excellence in gold-and-silver-smiting, gilding,
+                     wood carving, carpentry, furniture inlaying, drop-curtains and interior church painting.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Lubao, Pampanga</h3>
+                <p class="des-des">Lubao is a coastal municipality in the province of Pampanga. The municipality has a land area of 155.77 square kilometers or 60.14 square miles which constitutes 7.78% of Pampanga's 
+                    total area. Its population as determined by the 2020 Census was 173,502.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Macabebe, Pampanga</h3>
+                <p class="des-des">Macabebe, an ancient town in the province of Pampanga is intimately linked to the Pampanga River (Rio Grande de la Pampanga). The Macabebes were the first known Kapampangans. In the Spanish Colonial period of the Philippines,
+                     Macabebe was considered one of the oldest and most important communities of Pampanga.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Magalang, Pampanga</h3>
+                <p class="des-des">Magalang, officially the Municipality of Magalang (Kapampangan: Balen ning Magalang; Tagalog: Bayan ng Magalang), is a 1st class municipality in the province
+                     of Pampanga, Philippines. According to the 2020 census, it has a population of 124,188 people. [3]</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Masantol, Pampanga</h3>
+                <p class="des-des">Masantol, officially the Municipality of Masantol (Kapampangan: Balen ning Masantol; Tagalog: Bayan ng Masantol), is a 2nd class municipality in the province of Pampanga, Philippines. 
+                    According to the 2020 census, it has a population of 57,990 people. [3]</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Mexico, Pampanga</h3>
+                <p class="des-des">Mexico, Pampanga is also the home of many historical traditions and cultural festivals. Some of which are: A celebration of “Mexico Day” is also held during April 24th. This is the date of 
+                    establishment of the town and parish church (April 24, 1581).</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Minalin, Pampanga</h3>
+                <p class="des-des">Economy. Minalin is one of the fastest growing economy in Pampanga despite its propensity to develop flooding. Merchandising, farming and fishing are the usual source of living of Minalenos. The town is known as the "Egg Basket 
+                    of Central Luzon" because of its large scale production of eggs and chickens.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Porac, Pampanga</h3>
+                <p class="des-des">Porac is a town who literally took beauty from ashes. This municipality was first known for being one of the most affected towns in Pampanga during the Mt. Pinatubo eruption in June 15, 
+                    1991 because some portion of the said volcano was located in the town.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">San Luis, Pampanga</h3>
+                <p class ="des-des">San Luis, officially the Municipality of San Luis (Kapampangan: Balen ning San Luis; Tagalog: Bayan ng San Luis), is a 3rd class municipality in the province of Pampanga, Philippines.
+                     According to the 2020 census, it had a population of 58,551 people. [3]</p>
+                </div>
+            <div class="bgy">
+                <h3 class="title">San Simon, Pampanga</h3>
+                <p class="des-des">Pampanga was acknowledged as the first province to have 
+                    organized civil government in the Philippines by General Grant, the then 
+                    President of the United States of America. Bacolor's festivity is
+                     celebrated every 10th day of February and the
+                     La Naval Fiesta is being held every 3rd Sunday of NovemSan Simon is a
+                      third class municipality in the province of Pampanga, Philippines. 
+                     </p>
+                </div>
+            <div class="bgy">
+                <h3 class="title">Santa Rita, Pampanga</h3>
+                <p class="des-des">Sta Rita is popular for the turones de casoy delicacy. It is chiefly a farming town. The town of Santa Rita belongs to the Second District of Pampanga, along with the towns in the
+                     south-western part of the province. It is 79 kilometres (49 mi) from Manila.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Santa Ana, Pampanga</h3>
+                <p class="des-des">Residents of Sta. Ana are known for their spirituality and kindness. They are ready to help anyone more that they can afford. The town is basically a farming area, 
+                    with 3,056.20 hectares of its total land area dedicated to farming.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Santo Tomas, Pampanga</h3>
+                <p class="des-des">The town became the site of the bloody encounter between Filipino and American forces during
+                     Philippine Revolution known as the Battle of Santo Tomas.</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Sasmuan, Pampanga</h3>
+                <p class="des-des">The town is surrounded by carefully tended fish ponds on all sides, and it's a local center for shrimp and tilapia farming, as well as the site of one of the country's oldest churches, begun in 1735. But for many years, curiosity-seekers in
+                     Sasmuan didn't stop for the aquaculture or the architecture</p>
+            </div>
+            <div class="bgy">
+                <h3 class="title">Angeles, City</h3>
+                <p class="des-des">Angeles City is one of the proposed metropolitan areas in the Philippines. Metro Angeles is proposed to include the independent component cities of Mabalacat and San Fernando, as well as the towns of Bacolor, Floridablanca, Guagua, Lubao, Mexico, Porac and Santa Rita</p>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+  
+<script src = "planning.js"></script>
+</body>
+</html>

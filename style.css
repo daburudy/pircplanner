@@ -1,0 +1,904 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+.shopping{
+    margin-top: 10px;
+    color: black;
+    
+}
+.malls{
+    color: black;
+    margin-top: 5px;
+    text-decoration: underline;
+    text-decoration-color: black;
+   
+}
+
+/*DATE*/
+.date-range{
+    position: relative;
+    top: -15px;
+  
+}
+.date-desc {
+    position: relative;
+    top: 30px;
+    width: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 1px;
+   
+}
+.guest {
+     
+    position: relative;
+    top: -15px;
+    width: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 1px;
+
+}
+#people {
+    position: relative;
+    top:30px;
+    left: 50px;
+    padding: 7px 50px;
+    font-size: 1.3em;
+    width: 100%;
+    border: none;
+    background-color:  #143d59	;
+ }
+ .your-guest{
+    display: block;
+    width: 100%;
+    background-color:  whitesmoke	;
+    border: none;
+    padding: 10px 50px;
+    box-shadow: 0 5px 5px gray;
+ }
+ option{
+    background-color: white;
+ }
+.activities {
+    margin-top: -5px;
+   margin-bottom: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+}
+.enterme{
+    color: white;
+    background-color:  #143d59	;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 0;
+    position: relative;
+    top:-10px;
+    display: inline-block;
+   
+}
+#act {
+    position: relative;
+    top: 100px;
+}
+.tool-tipz {
+    background-color: white;
+    width: 17px;
+    height: 2.5vh;
+    border-radius: 50px;
+    border: 2px solid rgb(83, 81, 81);
+    position: absolute;
+    right: 44px;
+    top: 101px;
+}
+.hover-tip {
+    text-align: center;
+    position: absolute;
+    right: 4.5px;
+    top: -12px;
+    color: black;
+    font-size: 0.7em;
+}
+.planner {
+  text-align: center; 
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/*buttons*/
+.btnk{
+    height: 20vh;
+    position: relative;
+    left: 50px;
+    top: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.start {
+    position: relative;
+    top: -3px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.buttons{
+    position: relative;
+    left: -50px;
+ 
+}
+
+.adults {
+    position: relative;
+    top: 30px;
+    font-size: 1.4em;
+    left: 40px;
+}
+
+.arrow {
+    font-size: 2em;
+    position: relative;
+    top: 19px;
+}
+.trip {
+    position:relative;
+    top: -100px;
+    width: 100%;
+    height: 6vh;
+    font-size: 1.2em;
+    border-radius: 5px;
+    background-color: #F49F1C;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.radio-container {
+    position:relative;
+    top: -90px;
+    left: 70px;
+    accent-color: navy;
+    width: 80%;
+}
+.name {
+    font-size: 1em;
+    position: relative;
+}
+.box1, .box2, .box3  {
+    display: block;
+}
+.box1{
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+.box2 {
+    position: relative;
+    left: 20px;
+    top: -5px;
+}
+.box {
+   width: 15px;
+   border: 3px solid black;
+   cursor: pointer;
+}
+/*the container must be positioned relative:*/
+.search{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 260px;
+    width: 50%;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+    width: 50%;
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+   
+  }
+  /*ACTIVITIES*/
+
+  #prefer1, #prefer4{
+    position: relative;
+    left: -20px;
+  }
+  #outdoors{
+    position: relative;
+    left: -15px;
+    
+  }
+  #culture {
+    position: relative;
+    left: -10px;
+    
+ }
+
+ #prefer2{
+    position: relative;
+    left: -10px;
+    
+ }
+ #prefer5{
+    position: relative;
+    left: -19px;
+ }
+ #prefer8 {
+    position: relative;
+    left: 22px;
+ }
+ 
+ #prefer9 {
+    position: relative;
+    left:206px;
+    top: -27px;
+
+ }
+ #prefer8 {
+    position: relative;
+    left: 40px;
+ }
+ 
+ #wild {
+    position: relative;
+    left: 40px;
+ }
+ #romantic {
+    position: relative;
+    left: -10px;
+ }
+ #museum {
+    position: relative;
+    left: -10px;
+ }
+ #shopping {
+    position: relative;
+    left: 20px;
+ }
+ #historic {
+    position: relative;
+    top: -27px;
+    left:206px;
+
+ }
+
+.name-cont {
+    color: black;
+    display: inline-block;
+}
+.name{
+    font-size: 1.em;
+}
+.add {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background-color: white;
+    padding: 0px 20px;
+    border: 1px solid  gray;
+    margin-bottom: 8px;
+    position: relative;
+    top: -8px;
+    margin-bottom: 8px;
+    color: blue;
+}
+.S {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    font-size: 1.3em;
+}
+.container-sum {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+.container-visit {
+    background-color: white;
+    width: 300px;
+    padding: 50px 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 420px;
+    top: 310px;
+    display: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#old {
+    position: relative;
+    top: -45px;
+    left: 20px;
+}
+#teen {
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+#kid {
+    position: relative;
+    left: 20px;
+}
+
+
+.calendar {
+    position: relative;
+    top: 3px;
+    background-color: transparent;
+    left: -50px;
+    display: block;
+}
+
+/*FORM*/
+
+
+#front {
+    height: 95vh;
+    background-image: url('images/suit.jpg');
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+}
+/*HEADER SECTION*/
+.header {
+    font-size: 0.8em;
+    height: 7vh;
+    background-color: #143d59	;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+.title-header {
+    position: relative;
+    top: 15px;
+    font-size: 1.2em;
+    font-family: 'Work Sans', sans-serif;
+}
+.pirc {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    letter-spacing: 1px;
+   
+}
+.pirc-head {
+    position: fixed;
+    top: 70px;
+    left: 200px;
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    z-index: 1;
+}
+.qoutes {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.header-qoutes {
+    font-size: 4.9em;
+    width: 40%;
+    letter-spacing: -3px;
+    color:	#F49F1C;
+    text-shadow: 0 2px 2px 	black;
+    font-family: 'Work Sans', sans-serif;
+}
+.costum {
+    font-size: 1em;
+    margin-top: 20px;
+    color: black;
+    width: 40%;
+    letter-spacing: 1px;
+}
+.start {
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    left:120px;
+    top: 40px;
+    color: white;
+    background-color:#143d59;
+    border: none;
+    font-size: 1em;
+    border-radius: 30px;
+   
+}
+.start:hover {
+    background-color: white;
+    color: black;
+
+}
+/*ABOUT SECTION*/
+#about {
+    height: 70vh;
+    font-family: 'Work Sans', sans-serif;
+}
+.about-container {
+    position: relative;
+    top: 80px;
+}
+.flex-icon {
+    position: relative;
+    top: 130px;
+    display: flex;
+    left: -30px;
+}
+.about-head {
+    font-size: 3.4em;
+    text-align:center;
+}
+.first-about {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    left: 10px;
+    top: 55px;
+    right: 20px;
+}
+.icon {
+   color: black;
+   position: relative;
+   left: 120px;
+   top: -20px;
+   font-size: 2.5em;
+   width: 120px;
+}
+
+#one, #two, #three {
+    margin-left: 90px;
+    font-size: 1.2em;
+    width: 700px;
+}
+
+#one {
+    position: relative;
+    left: 20px;
+}
+#two {
+    position: relative;
+    left: 20px;
+}
+#three {
+    position: relative;
+    left: -20px;
+}
+#first-tits {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+}
+#two-tits {
+    position: relative;
+    left: 90px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#three-tits {
+    font-size: 0.9em;
+    position: relative;
+    left: 120px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#three-des {
+    position: relative;
+    left: 120px;
+}
+#two-des {
+    position: relative;
+    left: 70px;
+}
+#first-des {
+    position: relative;
+    left: 40px;
+}
+.icon-desc {
+    width: 250px;
+    font-size: 0.8em;
+    position: relative;
+    left: -10px;
+}
+/*trending*/
+.trending {
+    position:relative;
+    top: 230px;
+}
+.spt{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.des {
+    font-size: 0.8em;
+    width: 280px;
+    position: relative;
+    left: 40px;
+    top: 10px; 
+ }
+ 
+.spots {
+   z-index: -1;
+    margin-left: 35px;
+    width: 270px;
+    height: 35vh;
+    transition: all .15s
+}
+.spots:hover {
+    transform: scale(1.1)
+}
+.trending-head {
+    text-align: center;
+    font-size: 3.4em;
+}
+.img-flex {
+   position: relative;
+   left: 170px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   width: 500px;
+
+}
+.heart, .heart1, .heart2, .heart3, .heart4, .heart5, .heart6, .heart7, .heart8{
+    color: white;
+    text-shadow: 0 2px 2px black;
+    font-size:1.7em;
+    position: relative;
+    top: -250px;
+    right: -270px;
+   transition: all 0s;
+}
+.heart:hover{
+    color: red;
+}
+.heart1:hover{
+    color: red;
+}
+.heart2:hover{
+    color: red;
+}
+.heart3:hover{
+    color: red;
+}
+.heart4:hover{
+    color: red;
+}
+.heart5:hover{
+    color: red;
+}
+.heart6:hover{
+    color: red;
+}
+.heart7:hover{
+    color: red;
+}
+.heart8:hover{
+    color: red;
+}
+.history {
+    margin-top: 30px;
+}
+.container-th{
+    position: relative;
+    left: 80px;
+    font-size: 1em;
+    top: 10px;
+}
+.title {
+   margin-left: 20px;
+   margin-bottom: 10px;
+   font-size: 1.4em;
+}
+.des-des {
+    width: 400px;
+ 
+}
+/*BARANGAYS*/
+
+#barangay {
+    height: 100vh;
+    position: relative;
+    top: 1100px;
+}
+.n19 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3.1em;
+}
+.brgy-hold {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 20px;
+}
+.bgy {
+    margin-top: 45px;
+}
+
+/*ITINERARY*/
+#itinerary {
+   height: 100vh;
+   position: relative;
+   top: 590px;
+}
+#btn-search {
+    width: 30%;
+    position: absolute;
+    top: 50px;
+}
+.florida {
+    width: 50px;
+    height: 8.5vh;
+}
+
+
+/*itinerary*/
+#itinerary {
+    position: relative;
+    top: 1500px;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+}
+.fixed-container {
+    display: flex;
+    position: relative;
+    top: 0;
+    font-size: 1.3em;  
+    background-color: #E0E0E0;
+    width: 900px;
+    padding: 10px 0;
+    box-shadow: 0 1px 1px gray;
+}
+.logoz {
+    margin-left: 10px;
+}
+.top-fix {
+    position: absolute;
+    left: 280px;
+    font-size: 1.3em;  
+}
+.top-head {
+    margin-left: 10px;
+}
+.trip-container{
+    position: absolute;
+    top: 50.5px;
+    left: 200px;
+}
+.trips-bg {
+    width: 800px;
+    height: 38vh;
+}
+.rc-img {
+    display: flex;
+    overflow-x: scroll;
+    width: 650px;
+    margin-top: 50px;
+    position: relative;
+    left: 20px;
+}
+.add1 {
+   display: flex;
+   margin-left: 30px;
+   border: 1px solid #E0E0E0; 
+   padding-right: 50px;
+   border-radius: 10px;
+ 
+}
+.places-to-visit-link {
+    position: relative;
+    left: 50px;
+}
+.pointer-icon {
+    position: absolute;
+    top: 32px;
+    left: 13px;
+}
+.nearby {
+   padding-left: 30px;
+}
+.places-to-visit {
+    text-align: center;
+}
+.florida {
+    width: 100px
+}
+.-img-name {
+    white-space: nowrap;
+}
+.button-add {
+    padding: 20px 20px;
+}
+.map{
+    position: absolute;
+    top: -50px;
+    left: 700px;
+}
+.reco {
+    font-size: 0.8em;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: rgb(12, 11, 11);
+    letter-spacing: 1px;
+}
+.du {
+    margin-right: 10px ;
+    background-color: #E0E0E0;
+    padding: 2px 8px;
+    border-radius: 20px;
+    color: white;
+}
+#button-add {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: #E0E0E0;
+    width: 40px;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+}
+/*itinerary*/
+
+
+
+  .button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ .button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 110%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: -10px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
